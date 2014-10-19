@@ -1,3 +1,20 @@
 header .container {
 	height: 800px;
 }
+
+
+header .container .intro-text .btn-xl {
+	margin-top: 20px;
+}
+
+
+
+.fa-circle {
+	color: #2980b9;
+}
+
+
+
+
+
+

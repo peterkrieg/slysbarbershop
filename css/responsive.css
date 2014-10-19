@@ -1,0 +1,68 @@
+
+
+
+@media(min-width:768px) {
+	header .container .intro-text .intro-lead-in {
+		margin-top: 150px;
+		font-size: 80px;
+		line-height: 80px;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*stuff that i took from old agency.css file*/
+
+	/*@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 60px;
+        font-style: italic;
+        line-height: 40px;
+        color: #2980b9;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 75px;
+        color: #2980b9;
+    }
+}*/

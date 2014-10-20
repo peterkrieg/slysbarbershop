@@ -19,4 +19,9 @@ header .container .intro-text .btn-xl {
 }
 
 
+#team .img-circle {
+	border-radius: 140px;
+}
+
+
 

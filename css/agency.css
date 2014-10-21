@@ -35,14 +35,15 @@ a.active {
 }
 
 a {
-    color: #C0392B;
+    color: black;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #C0392B;
+    text-decoration: none;
 }
 
 h1,
@@ -230,36 +231,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #D64541;
 }
 
-@media(min-width:768px) {
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
 
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
 
 header {
     text-align: center;
@@ -312,26 +284,12 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
+
 
 .service-heading {
-    margin: 15px 0;
+    margin: 1px 0;
     text-transform: none;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

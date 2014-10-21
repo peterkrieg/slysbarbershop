@@ -1,5 +1,55 @@
 
 
+@media(min-width:300px){
+	.logo {
+		width: 220px;
+		height: 40px;
+		padding-top: 10px;
+	}
+
+	header .container {
+	height: 500px;
+}
+
+}
+
+
+@media(min-width: 500px){
+	.logo{
+		width: 280px;
+		height: 40px;
+		padding-top: 5px;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(min-width:768px) {
 	header .container .intro-text .intro-lead-in {
@@ -12,6 +62,91 @@
 	}
 
 
+	.navbar-default {
+      padding: 0px 0;
+      border: 0;
+      background-color: transparent;
+      -webkit-transition: padding .3s;
+      -moz-transition: padding .3s;
+      transition: padding .3s;
+  }
+
+  .navbar-default .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+  }
+
+  .navbar-default .navbar-nav>.active>a {
+      border-radius: 3px;
+  }
+
+  .navbar-default.navbar-shrink {
+      padding: 10px 0;
+      background-color: #222;
+  }
+
+  .navbar-default.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+  }
+
+  section {
+        padding: 150px 0;
+    }
+
+
+	.logo{
+		width: 260px;
+	}
+
+	header .container {
+	height: 800px;
+}
+
+
+}
+
+
+@media(min-width: 840px){
+	.logo{
+		width: 270px;
+		height: 40px;
+		float: left;
+	}
+}
+
+
+
+@media(min-width: 1000px){
+	.logo{
+		width: 450px;
+		height: 50px;
+	}
+}
+
+
+
+@media(min-width: 1200px){
+	.logo{
+		width: 600px;
+		height: 70px;
+		padding-bottom: 10px;
+	}
+
+
+	li .page-scroll{
+		font-size: 1.1em;
+	}
+
+	#page-top .navbar-fixed-top{
+		padding-top: 10px;
+	}
+
+	
+
+
+}
 
 
 

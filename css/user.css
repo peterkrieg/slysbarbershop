@@ -24,4 +24,35 @@ header .container .intro-text .btn-xl {
 }
 
 
+#map{
+	padding: 0;
+	margin: 0;
+}
+
+.map {
+	padding: 0
+	margin: 0;
+}
+
+
+#contact{
+	background: rgb(34,34,34); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(34,34,34,1) 0%, rgba(56,56,56,1) 72%, rgba(79,79,79,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(34,34,34,1)), color-stop(72%,rgba(56,56,56,1)), color-stop(100%,rgba(79,79,79,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(34,34,34,1) 0%,rgba(56,56,56,1) 72%,rgba(79,79,79,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(34,34,34,1) 0%,rgba(56,56,56,1) 72%,rgba(79,79,79,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(34,34,34,1) 0%,rgba(56,56,56,1) 72%,rgba(79,79,79,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(34,34,34,1) 0%,rgba(56,56,56,1) 72%,rgba(79,79,79,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#4f4f4f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+.hourspricing{
+	border-bottom: 5px #222 solid;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+}
+
+
 

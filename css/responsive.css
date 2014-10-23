@@ -11,6 +11,11 @@
 	height: 500px;
 }
 
+.btn-xl{
+	padding: 10px 20px;
+	font-size: 12px;
+}
+
 }
 
 
@@ -114,6 +119,11 @@
 		height: 40px;
 		float: left;
 	}
+
+	.btn-xl{
+	padding: 20px 40px;
+	font-size: 18px;
+}
 }
 
 

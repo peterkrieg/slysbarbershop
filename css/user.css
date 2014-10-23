@@ -9,6 +9,10 @@ header .container .intro-text .btn-xl {
 
 
 
+
+
+
+
 .fa-circle {
 	color: #2980b9;
 }
@@ -101,6 +105,7 @@ ul.address li:first-child{
 
 
 
+/*For the carousel*/
 
 
 
@@ -112,6 +117,122 @@ ul.address li:first-child{
 
 
 
+
+
+
+
+
+
+
+.item{
+    /*background: black;    */
+    text-align: center;
+    height: 600px !important;
+}
+.carousel{
+/*    margin-top: 20px;
+*/}
+.bs-example{
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#reviews{
+	background: url('../img/people.png');
+}
+
+#reviews #myCarousel{
+	height: 300px;
+}
+
+#reviews .carousel-inner{
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+#reviews .section-heading{
+	text-align: center;
+}
+
+#reviews  .carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+#reviews .carousel-indicators li{
+	border: 2px solid #222;
+	height: 15px;
+	width: 15px;
+}
+
+#reviews .carousel-indicators li.active{
+	height: 20px;
+	width: 20px;
+	background:  #C0392B;
+}
+
+#reviews .carousel-indicators li:hover{
+	background:  #C0392B;
+}
+
+#reviews .carousel-indicators li:active{
+	background:  #C0392B;
+}
+
+
+
+
+
+.reviewsfooter{
+	text-align: center;
+}
+
+.reviewsfooter a, .reviewsheader a{
+	text-decoration: underline;
+}
+
+
+#reviews .carousel-inner{
+	text-align: center;
+}
+
+.carousel-inner{
+	text-align: center;
+}
+
+#reviews p{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#reviews p.citation{
+	margin-top: 25px;
+}
+
+#myCarousel{
+	margin-top: 100px;
+}
+
+
+.item p:first-child{
+	font-style: italic;
+}
 
 
 

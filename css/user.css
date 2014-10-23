@@ -54,5 +54,59 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', end
 	margin-bottom: 50px;
 }
 
+iframe.map{
+	border: 1px solid #222;
+}
+
+.address{
+	padding-top: 30px;
+	text-align: left;
+}
+
+.address ul{
+	padding-left: 0;
+	margin-left: 0;
+}
+
+ul.address li {
+	list-style: none;
+	padding: 5px 5px 5px 0;
+	margin-left: 0;
+}
+
+ul.address li:first-child{
+	font-weight: bold;
+}
+
+.address i {
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

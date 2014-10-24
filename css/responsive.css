@@ -117,7 +117,9 @@
 	.logo{
 		width: 270px;
 		height: 40px;
+		padding-left: -200px;
 		float: left;
+		display: inline;
 	}
 
 	.btn-xl{
@@ -154,6 +156,30 @@
 	}
 
 	
+
+
+}
+
+
+
+
+@media(max-width: 840px){
+	#reviews .fa-chevron-left, #reviews .fa-chevron-right{
+		font-size: 2em;
+	}
+
+	#reviews .container p{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#reviews .container .carousel-inner {
+		height: 350px;
+	}
+
+	#reviews #myCarousel{
+		margin-top: 40px;
+	}
 
 
 }

@@ -163,6 +163,46 @@
 
 
 
+/*Fixes the reviews page, so it looks better, particularly on mobile devices*/
+@media(max-width: 840px){
+	#reviews .fa-chevron-left, #reviews .fa-chevron-right{
+		font-size: 2em;
+	}
+
+	#reviews .container p{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#reviews .container .carousel-inner {
+		height: 350px;
+	}
+
+	#reviews #myCarousel{
+		margin-top: 40px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+/*This makes the navbar logo not wrap on different line.  strange bug that doesn't really fix root of problem*/
+@media(max-width: 995px){
+	.navbar-brand{
+		padding: 0px;
+	}
+}
+
+
+
+
+
 
 
 

@@ -448,27 +448,27 @@
             <h3 class="section-subheading text-muted">Have questions or comments?  Drop us a line and we will get back to you as soon as possible!</h3> 
           </div>
       </div>
-      <div class="row">
+      <div class="row"> 
           <div class="col-lg-12">
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form action="contact.php" method="post" name="sentMessage" id="contactForm" novalidate>
               <div class="row">
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                    <input type="text" class="form-control" placeholder="Your Name *" name="cf_name" required data-validation-required-message="Please enter your name.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                    <input type="email" class="form-control" placeholder="Your Email *" name="cf_email" required data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                    <input type="tel" class="form-control" placeholder="Your Phone *" name="cf_phone" required data-validation-required-message="Please enter your phone number.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-lg-6" style="color: white;">
                   <div class="form-group">
-                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" placeholder="Your Message *" name="cf_message" required data-validation-required-message="Please enter a message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -527,7 +527,6 @@
 
   <!-- Contact Form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
 
   <!-- Custom Theme JavaScript -->
   <script src="js/agency.js"></script>

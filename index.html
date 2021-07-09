@@ -31,6 +31,7 @@
    new WOW().init();
   </script>
 
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -379,7 +380,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Sly's Barber Shop 2020</span>
+          <span class="copyright">Copyright &copy; Sly's Barber Shop <span id="copyright-year"></span></span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
@@ -401,6 +402,12 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    // set copyright year so I don't have to update it manually..
+    const yearElement = document.getElementById('copyright-year');
+    yearElement.innerText = new Date().getFullYear();
+  </script>
 
   <!-- jQuery Version 1.11.0 -->
   <script src="js/jquery-1.11.0.js"></script>
